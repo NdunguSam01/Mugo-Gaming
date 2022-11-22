@@ -3,3 +3,13 @@ body
     background-image: url('./Assets/Images/Back.jpg');
     background-size: cover;
 }
+.product
+{
+    padding-left: 370px;
+    top: 300px;
+    height: auto;
+}
+.price, .description
+{
+    color: white;
+}
