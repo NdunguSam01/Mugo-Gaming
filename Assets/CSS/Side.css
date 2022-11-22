@@ -1,0 +1,66 @@
+#divMenu, ul, li, li li 
+{  
+    left: 0;    
+    margin: 0;  
+    padding: 0;  
+    top: 103.1px;
+}  
+   
+#divMenu 
+{  
+    width: 220px;  
+    height: auto;  
+}  
+#divMenu li 
+{  
+    position: relative;
+    list-style-type: none;
+    background: #333; 
+    text-align: justify;   
+    padding: 5px;
+}     
+#divMenu li li 
+{  
+    list-style: none;  
+    position: relative;  
+    background: #333;
+    left: 219.5px;  
+    top: -27px;  
+}  
+#divMenu ul li a 
+{  
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 30px;
+    height: 50px;
+    transition: .1s ease;
+}    
+#divMenu ul ul 
+{  
+    position: absolute;  
+    visibility: hidden;  
+    top: 27px;  
+}  
+#divMenu ul li:hover ul 
+{  
+    visibility: visible;  
+}  
+#divMenu li:hover 
+{  
+    background: greenyellow;
+    color: white; 
+}  
+#divMenu ul li:hover ul li a:hover 
+{  
+    background: greenyellow;
+    color: white;
+}  
+#divMenu a:hover 
+{  
+    font-weight: bold;  
+}
